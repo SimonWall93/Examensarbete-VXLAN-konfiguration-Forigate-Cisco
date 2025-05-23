@@ -1,4 +1,4 @@
-router bgp65001
+router bgp 65001
 int range g1/0/1-2, lo1-2
 ip ospf network point-to-point
 
